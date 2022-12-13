@@ -15,3 +15,8 @@ android {
         exclude 'META-INF/LICENSE'
     }
 }
+
+
+configurations.implementation {
+    exclude group: 'com.google.zxing'
+}
